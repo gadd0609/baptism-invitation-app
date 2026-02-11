@@ -1,10 +1,16 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import WelcomeVue from '../components/welcome/index.vue'
+import Info from '../components/info/index.vue'
+import Gallery from '../components/gallery/index.vue'
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<!-- <Welcome /> -->
 	<WelcomeVue />
+	<div class="bg-pearl shadow-4xl">
+		<Info />
+	</div>
+	<div class="bg-salmon-pink shadow-4xl">
+		<Gallery />
+	</div>
 </Layout>

@@ -1,38 +1,43 @@
 <template>
-  <div class="font-comfortaa min-h-screen w-full flex flex-col justify-center bg-porcelain-haze py-24 sm:py-32">
+  <div class="font-comfortaa min-h-screen w-full flex flex-col justify-center bg-pearl py-24 sm:py-32">
     <div class="relative mx-auto max-w-4xl flex flex-col items-center px-4">
-      
-      <header class="text-center mb-8">
-        <h1 class="text-lg sm:text-3xl text-coral-dust tracking-widest">
-          BAUTISMO DE MARIEL
-        </h1>
-      </header>
 
-      <div class="w-64 sm:w-80 mb-8">
+      <div class="w-32 sm:w-40 mb-4">
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
-          viewBox="0 0 640 640"
-          class="w-full h-auto fill-sage-canopy drop-shadow-depth"
-          aria-label="Paloma de la paz"
+          viewBox="0 0 256 256" fill="currentColor"
+          class="w-full h-auto fill-pink"
+          aria-label="Cruz"
         >
-          <path d="M560 128C573.2 128 580.7 143.1 572.8 153.6L544 192L544 368C544 447.5 479.5 512 400 512L288 512L241.7 558.3C231.3 568.7 215.2 570.7 202.6 563.1L105.5 504.9C88.5 494.7 90.5 469.4 108.9 462L224 416C87.8 375.1 71.5 233.8 86 159.7C89.6 141.9 109.3 135.4 125.3 144.2L384 288L384 208C384 163.8 419.8 128 464 128L560 128zM464 184C450.7 184 440 194.7 440 208C440 221.3 450.7 232 464 232C477.3 232 488 221.3 488 208C488 194.7 477.3 184 464 184zM246.5 54.4C258.9 40.7 279.8 45.5 289 61.5L345.4 159.8C339.6 174.2 336.2 189.9 336 206.3L202.1 132C212.2 100.4 229.1 73.6 246.5 54.4z"/>
+          <path d="M200,72H160V32a16,16,0,0,0-16-16H112A16,16,0,0,0,96,32V72H56A16,16,0,0,0,40,88v32a16,16,0,0,0,16,16H96v88a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V136h40a16,16,0,0,0,16-16V88A16,16,0,0,0,200,72Zm0,48H152a8,8,0,0,0-8,8v96H112V128a8,8,0,0,0-8-8H56V88h48a8,8,0,0,0,8-8V32h32V80a8,8,0,0,0,8,8h48Z"/>
         </svg>
       </div>
 
-      <div class="text-center space-y-4">
+      <header class="text-center mb-16">
+        <h1 class="text-2xl sm:text-3xl mb-8 bold text-pink tracking-widest">
+          MI BAUTIZO
+        </h1>
+        <h1 class="text-6xl sm:text-3xl bold text-pink tracking-widest  ">
+          Mariel
+        </h1>
+      </header>
+
+      <div class="text-center">
         <div class="flex items-center justify-center gap-3 sm:gap-4">
-          <span class="text-2xl sm:text-3xl text-coral-dust tracking-widest">
+          <span class="text-xl sm:text-3xl text-soft-sandstone tracking-widest">
             ABRIL
           </span>
-          <span class="text-5xl sm:text-6xl font-light text-coral-dust tracking-wider">
+          <span class="border-l-2 border-pink h-12 ml-2 mr-2"></span>
+          <span class="text-5xl sm:text-6xl font-light text-soft-sandstone tracking-wider">
             15
           </span>
-          <span class="text-2xl sm:text-3xl text-coral-dust tracking-widest">
+          <div class="border-l-2 border-pink h-12 ml-2 mr-2"></div>
+          <span class="text-xl sm:text-3xl text-soft-sandstone tracking-widest">
             2026
           </span>
         </div>
 
-        <p class="text-xl sm:text-2xl text-sage-canopy mt-6">
+        <p class="text-xl sm:text-2xl text-soft-sandstone mt-6">
           Cuauhtémoc, Colima, Mex
         </p>
       </div>

@@ -5,7 +5,8 @@ export default {
   theme: {
       extend: {
          fontFamily: {
-          'comfortaa': ['Comfortaa', 'sans-serif'],
+          'bodoni': ['"Bodoni Moda"', 'cursive'],
+          'bodoni-cursive': ['"Bodoni Moda"', 'cursive'],
         },
         colors: {
           'sage-canopy': '#989069',
@@ -13,11 +14,16 @@ export default {
           'porcelain-haze': '#cec19e',
           'coral-dust': '#c28573',
           'plum-husk': '#814b4b',
+          //
+          'pink': '#e5c5c1',
+          'blush': '#f4e1e0',
+          'salmon-pink': '#bf897f',
+          'soft-sandstone': '#dac2b2',
+          'pearl': '#f7f2e0',
         },
          dropShadow: {
           'depth': [
-            '0 4px 4px rgb(0 0 0 / 0.3)',
-            '0 4px 4px rgb(0 0 0 / 0.2)'
+            '0 1px 1px rgb(0 0 0 / 0.3)'
           ],
       },
       },
