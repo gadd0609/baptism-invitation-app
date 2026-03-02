@@ -19,7 +19,7 @@ export default {
           'blush': '#f4e1e0',
           'salmon-pink': '#bf897f',
           'soft-sandstone': '#dac2b2',
-          'pearl': '#f7f2e0',
+          'pearl': '#F5F1E8',
         },
          dropShadow: {
           'depth': [

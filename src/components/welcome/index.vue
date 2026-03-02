@@ -1,7 +1,23 @@
 <template>
   <div class="font-comfortaa min-h-screen w-full flex flex-col justify-center bg-pearl py-24 sm:py-32">
     <div class="relative mx-auto max-w-4xl flex flex-col items-center px-4">
-
+      <h1 
+        class="text-2xl sm:text-3xl mb-8 bold text-soft-sandstone tracking-widest "
+        style="font-family: 'Comfortaa', cursive;"
+      >
+        Estas invitado a celebrar el
+      </h1>
+      <h1 
+        class="text-2xl sm:text-3xl mb-8 bold text-pink tracking-widest"
+      >
+        BAUTIZO
+      </h1>
+      <h1 
+        class="text-xl sm:text-3xl mb-8 bold text-soft-sandstone tracking-widest"
+        style="font-family: 'Comfortaa', cursive;"
+      >
+        De
+      </h1>
       <div class="w-32 sm:w-40 mb-4">
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
@@ -14,10 +30,10 @@
       </div>
 
       <header class="text-center mb-16">
-        <h1 class="text-2xl sm:text-3xl mb-8 bold text-pink tracking-widest">
-          MI BAUTIZO
-        </h1>
-        <h1 class="text-6xl sm:text-3xl bold text-pink tracking-widest  ">
+        <h1 
+          class="text-6xl sm:text-3xl bold text-pink tracking-widest" 
+          style="font-family: 'Comfortaa', cursive;"
+        >
           Mariel
         </h1>
       </header>
