@@ -2,6 +2,7 @@
 import WelcomeVue from '../components/welcome/index.vue'
 import Info from '../components/info/index.vue'
 import Gallery from '../components/gallery/index.vue'
+import GiftTable from '../components/giftTable/index.vue'
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -10,7 +11,10 @@ import Layout from '../layouts/Layout.astro';
 	<div class="bg-pearl shadow-4xl">
 		<Info />
 	</div>
-	<div class="bg-salmon-pink shadow-4xl">
+	<div class="bg-salmon-pink pb-14 px-5">
+		<GiftTable />
+	</div>
+	<div >
 		<Gallery />
 	</div>
 </Layout>

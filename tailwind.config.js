@@ -20,6 +20,7 @@ export default {
           'salmon-pink': '#bf897f',
           'soft-sandstone': '#dac2b2',
           'pearl': '#F5F1E8',
+          'charcoal': '#5E5C6C'
         },
          dropShadow: {
           'depth': [

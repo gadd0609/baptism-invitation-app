@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-pearl text-center p-6 sm:p-12 rounded-t-3xl shadow-2xl">
+  <div class="bg-salmon-pink text-center p-6 sm:p-12 shadow-4xl ">
     <div class="mx-auto max-w-2xl px-8 py-16 sm:px-8 sm:py-24 lg:max-w-7xl lg:px-8">
-      <h2 class="text-3xl sm:text-6xl text-center font-bold text-beige mb-4 drop-shadow-lg">
+      <h2 class="text-3xl sm:text-6xl text-center font-bold text-pearl mb-4 drop-shadow-lg">
         Nuestras fotos favoritas de Mariel
       </h2>
       <div class="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
         <div
           v-for="(photo, index) in photos"
           :key="index"
-          class="rounded-xl overflow-hidden shadow-lg bg-gray-100 hover:scale-105 transition-transform duration-200 cursor-pointer"
+          class="rounded-xl overflow-hidden shadow-xl bg-gray-100 hover:scale-105 transition-transform duration-200 cursor-pointer"
           @click="openDialog(photo)"
         >
           <img 
@@ -20,14 +20,14 @@
       </div>
     </div>
   </div>
-  <div class="relative mx-auto">
+  <div class="relative mx-auto  rounded-t-3xls bg-salmon-pink px-5">
     <img 
-      src="/photos/DSC03155.jpg" 
+      src="/photos/asset2.jpg" 
       alt="photo.alt"
-      class="w-full object-cover overflow-hidden sm:rounded-2xl bg-gray-100"
+      class="w-full object-cover overflow-hidden sm:rounded-2xl bg-gray-100 rounded-t-3xl"
     />
     <img 
-      src="/logoWhite.svg" 
+      src="/public/bow.svg" 
       alt="logo"
       class="absolute inset-0 m-auto w-32 h-32"
     />
