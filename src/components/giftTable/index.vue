@@ -20,7 +20,7 @@
             </em>
           </p>
         </blockquote>
-        <div class="bg-green-custom mx-auto my-10 max-w-2xl bg-beige rounded-3xl shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
+        <div class="bg-pearl mx-auto my-10 max-w-2xl bg-beige rounded-3xl shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
           <p class="text-xl mb-8 text-charcoal sm:text-3xl text-charcoal">
             Mesa de regalos Liverpool #51953391
           </p>

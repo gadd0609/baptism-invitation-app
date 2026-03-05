@@ -9,12 +9,6 @@ export default {
           'bodoni-cursive': ['"Bodoni Moda"', 'cursive'],
         },
         colors: {
-          'sage-canopy': '#989069',
-          'honey-reed': '#cec19f',
-          'porcelain-haze': '#cec19e',
-          'coral-dust': '#c28573',
-          'plum-husk': '#814b4b',
-          //
           'pink': '#e5c5c1',
           'blush': '#f4e1e0',
           'salmon-pink': '#bf897f',

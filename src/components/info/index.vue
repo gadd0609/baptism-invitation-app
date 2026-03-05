@@ -127,23 +127,25 @@
         </div>
       </div>
     </div>
+    <div class="bg-pearl mx-auto my-10 max-w-2xl bg-beige rounded-3xl shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
+      <p class="text-xl mb-8 text-charcoal sm:text-3xl text-charcoal">
+        Por favor, confírmanos tu asistencia.
+      </p>
+      <a 
+        :href="whatsappUrl"
+        target="_blank"
+        rel="noopener"
+        class="rounded-xl p-3 bg-pearl text-charcoal shadow-[0_8px_40px_8px_rgba(0,0,0,0.20)]">
+        Enviar mensaje por WhatsApp
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
+  import setup from './hook.js'
   export default {
     name: 'InfoComponent',
+    setup
   }
 </script>
-
-<style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.3s;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-}
-.fade-enter-to, .fade-leave-from {
-  opacity: 1;
-}
-</style>
