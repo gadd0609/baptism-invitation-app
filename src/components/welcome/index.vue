@@ -19,7 +19,7 @@
 
       
       <div class="w-32 sm:w-40 mb-4"></div>
-      <img src="/public/bow.svg" alt="logo">
+      <img src="/bow.svg" alt="logo">
 
       <header class="text-center mb-16">
         <h1 

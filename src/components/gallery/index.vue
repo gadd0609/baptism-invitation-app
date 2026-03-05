@@ -27,7 +27,7 @@
       class="w-full object-cover overflow-hidden sm:rounded-2xl bg-gray-100 rounded-t-3xl"
     />
     <img 
-      src="/public/bow.svg" 
+      src="/bow.svg" 
       alt="logo"
       class="absolute inset-0 m-auto w-32 h-32"
     />

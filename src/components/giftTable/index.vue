@@ -35,7 +35,7 @@
         </div>
       <div class="pb-8 flex justify-center items-center">
         <img 
-          src="/public/bow.svg" 
+          src="/bow.svg" 
           alt="logo.alt"
           class="w-40 sm:w-96 mx-auto my-4"
         >

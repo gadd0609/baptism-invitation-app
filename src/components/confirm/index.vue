@@ -87,7 +87,7 @@
     import setup from './hook.js'
 
     export default {
-    name: 'GalleryComponent',
+    name: 'ConfirmComponent',
     setup
     }
 </script>
