@@ -1,14 +1,17 @@
 ---
-import WelcomeVue from '../components/welcome/index.vue'
+import WelcomeComponent from '../components/welcome/index.vue'
 import Info from '../components/info/index.vue'
-import Gallery from '../components/gallery/index.vue'
+import GalleryComponent from '../components/gallery/index.vue'
 import GiftTable from '../components/giftTable/index.vue'
-import Confirm from '../components/confirm/index.vue'
+import MainPhoto from '../components/mainPhoto/index.vue'
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<WelcomeVue />
+	<WelcomeComponent class="bg-pearl"/>
+	<div class="bg-pearl shadow-4xl pb-20">
+		<MainPhoto class="mx-5" />
+	</div>
 	<div class="bg-pearl shadow-4xl">
 		<Info />
 	</div>
@@ -16,6 +19,6 @@ import Layout from '../layouts/Layout.astro';
 		<GiftTable />
 	</div>
 	<div >
-		<Gallery />
+		<GalleryComponent client:visible />
 	</div>
 </Layout>

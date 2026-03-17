@@ -13,10 +13,10 @@
         <h2 class="text-3xl text-charcoal sm:text-7xl">
           MESA DE REGALOS
         </h2>
-        <blockquote class="relative border-s-4 border-gray-200 ps-4 sm:ps-6 dark:border-neutral-700">
+        <blockquote class="relative border-s-4 border-charcoal ps-4 sm:ps-6 dark:border-neutral-700">
           <p class="text-xl my-8 text-charcoal sm:text-3xl">
             <em>
-                El mayor obsequio para nosotros es contar con su compañía en este día tan especial. Si, además, desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos
+              El mayor obsequio para nosotros es contar con su compañía en este día tan especial. Además, si desean bendecirnos con un detalle, ponemos a su disposición nuestra mesa de regalos y cuenta.
             </em>
           </p>
         </blockquote>
@@ -32,7 +32,20 @@
             Ir a la mesa
           </a>
         </div>
+
+        <div class="bg-pearl mx-auto my-10 max-w-2xl bg-beige rounded-3xl shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
+          <p class="text-xl mb-8 text-charcoal sm:text-3xl text-charcoal">
+            Tarjeta Banorte 
+          </p>
+          <p>
+            Cuenta: 4189143120999407
+          </p>
+          <p>
+            Nombre: Ángeles Elizabeth Madrid Macías 
+          </p>
         </div>
+
+      </div>
       <div class="pb-8 flex justify-center items-center">
         <img 
           src="/bow.svg" 

@@ -5,8 +5,9 @@ export default {
   theme: {
       extend: {
          fontFamily: {
-          'bodoni': ['"Bodoni Moda"', 'cursive'],
-          'bodoni-cursive': ['"Bodoni Moda"', 'cursive'],
+          // 'bodoni': ['"Bodoni Moda"', 'cursive'],
+          // 'bodoni-cursive': ['"Bodoni Moda"', 'cursive'],
+          'dancing': ['"Dancing Script"', 'cursive'],
         },
         colors: {
           'pink': '#e5c5c1',

@@ -22,7 +22,7 @@
   </div>
   <div class="relative mx-auto  rounded-t-3xls bg-salmon-pink px-5">
     <img 
-      src="/photos/asset2.jpg" 
+      src="/photos/photoBottom.jpg" 
       alt="photo.alt"
       class="w-full object-cover overflow-hidden sm:rounded-2xl bg-gray-100 rounded-t-3xl"
     />
@@ -32,24 +32,24 @@
       class="absolute inset-0 m-auto w-32 h-32"
     />
   </div>
-
   <div
     v-if="showDialog"
     class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 p-10"
     @click.self="closeDialog"
   >
-    <div class="bg-white rounded-lg shadow-2xl max-w-2xl w-full p-5 relative">
+    <div class="bg-pearl rounded-2xl shadow-2xl max-w-2xl w-full relative">
       <button
-        class="absolute top-1 right-2 text-2xl text-gray-500 hover:text-red-500"
+        class="absolute right-2 text-2xl text-gray-500 hover:text-red-500"
         @click="closeDialog"
         aria-label="Cerrar"
-      >×</button>
+      >
+        x
+      </button>
       <img
         :src="selectedPhoto.src"
         :alt="selectedPhoto.alt"
-        class="w-full max-h-[70vh] object-contain rounded"
+        class="w-full max-h-[70vh] rounded-2xl object-contain rounded"
       />
-      <p class="mt-2 text-center text-brown-custom font-semibold">{{ selectedPhoto.alt }}</p>
     </div>
   </div>
 </template>
