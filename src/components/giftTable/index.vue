@@ -21,7 +21,7 @@
           </p>
         </blockquote>
         <div class="bg-pearl mx-auto my-10 max-w-2xl bg-beige rounded-3xl shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
-          <p class="text-xl mb-8 text-charcoal sm:text-3xl text-charcoal">
+          <p class="text-xl mb-8 text-charcoal sm:text-3xl">
             Mesa de regalos Liverpool #51953391
           </p>
           <a 
@@ -34,13 +34,13 @@
         </div>
 
         <div class="bg-pearl mx-auto my-10 max-w-2xl bg-beige rounded-3xl shadow-[0_8px_40px_8px_rgba(0,0,0,0.25)] max-w-lg w-full p-8 text-center">
-          <p class="text-xl mb-8 text-charcoal sm:text-3xl text-charcoal">
+          <p class="text-xl mb-8 text-charcoal sm:text-3xl">
             Tarjeta Banorte 
           </p>
-          <p>
+          <p class="text-charcoal">
             Cuenta: 4189143120999407
           </p>
-          <p>
+          <p class="text-charcoal">
             Nombre: Ángeles Elizabeth Madrid Macías 
           </p>
         </div>
