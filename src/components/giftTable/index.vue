@@ -25,7 +25,7 @@
             Mesa de regalos Liverpool #51953391
           </p>
           <a 
-            href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51619150" 
+            href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51953391"
             target="_blank"
             class="rounded-md border border-beige px-5 py-2.5 text-md font-semibold text-charcoal shadow-xs hover:border-white focus-visible:outline-2   focus-visible:outline-offset-2 focus-visible:outline-white"
           >
