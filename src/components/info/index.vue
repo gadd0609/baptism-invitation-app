@@ -43,35 +43,39 @@
     <div class="justify-self-center mt-8">
     </div>
     <div class="my-16">
-      <h1 class="text-3xl my-8 text-green-custom sm:text-5xl text-pearl text-center">
-        ITINERARIO
+      <h1 class="text-3xl my-8 sm:text-5xl text-pearl text-center">
+        ITINERARIO Y UBICACIONES
       </h1>
+
       <div class="grid grid-cols-3"> 
         <div class="justify-self-center mt-">
         </div>
         <div>
-          <h1 class="text-xl text-green-custom sm:text-3xl text-pearl text-center">
+          <h1 class="text-xl sm:text-3xl text-pearl text-center">
            CEREMONIA
           </h1>
-          <h1 class="text-xl mb-8 sm:text-3xl text-pearl text-center">
+          <h1 class="text-xl mb-4 sm:text-3xl text-pearl text-center">
             1:00  PM  <font-awesome-icon icon="fa-solid fa-clock" /> 
-          </h1>
-          <h1 class="text-xl mt-8 text-green-custom sm:text-3xl text-pearl text-center">
-           UBICACIÓN
           </h1>
           <h1 class="text-xl mb-8 sm:text-3xl text-pearl text-center">
             Espíritu Santo
           </h1>
-          <h1 class="text-center mb-8">
+          <h1 class="text-center mb-16">
             <a
               href="https://maps.app.goo.gl/k8cesVixhViXVG899"
               target="_blank"
               rel="noopener"
-              class="rounded-md border border-pink my-5 px-5 py-2.5 text-md font-semibold text-pink shadow-xs hover:border-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              class="rounded-md border border-white my-5 px-5 py-2.5 text-md font-semibold text-white hover:border-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               style="justify-content: center;"
             >
               Iglesia
             </a> 
+          </h1>
+          <h1 class="text-xl sm:text-3xl text-pearl text-center">
+           FIESTA
+          </h1>
+          <h1 class="text-xl mb-4 sm:text-3xl text-pearl text-center">
+            2:30  PM  <font-awesome-icon icon="fa-solid fa-clock" /> 
           </h1>
           <h1 class="text-xl mb-8 sm:text-3xl text-pearl text-center">
             San Rafael 
@@ -81,7 +85,7 @@
               href="https://maps.app.goo.gl/TxvDwJWArn4b7KbK7"
               target="_blank"
               rel="noopener"
-              class="rounded-md border border-pink my-5 px-5 py-2.5 text-md font-semibold text-pink shadow-xs hover:border-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              class="rounded-md border border-white my-5 px-5 py-2.5 text-md font-semibold text-white hover:border-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               style="justify-content: center;"
             >
               Hacienda

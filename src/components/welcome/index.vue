@@ -9,7 +9,7 @@
       <h1 
         class="text-2xl sm:text-5xl mb-8 bold text-pink"
       >
-        Bautizo
+        Bautizo y primer año
       </h1>
       <h1 
         class="text-xl sm:text-3xl bold text-pink"
